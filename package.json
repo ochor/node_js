@@ -1,0 +1,19 @@
+{
+  "name": "js_til",
+  "version": "1.0.0",
+  "description": "This folder is working on git[upload js files]",
+  "main": "230710_js1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ochor/webstudy.git"
+  },
+  "author": "ochor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ochor/webstudy/issues"
+  },
+  "homepage": "https://github.com/ochor/webstudy#readme"
+}

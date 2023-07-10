@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table { border-collapse: collapse; }
+		    th, td { border: solid 1px gray; }
+		    th { padding: 5px; background-color: #eeeeee}
+		    td { padding:5px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div id="right"></div>
+    <script>
+        contents = "";
+        contents += "<h3>구구단 표 만들어 보기</h3>";
+        contents += "<table>";
+        contemts +="<tr><th>2단</th><th>3단</th><th>4단</th><th>5단</th><th>6단</th><th>7단</th><th>8단</th><th>9단</th></tr>";
+        
+                for (var i=2; i<=9; i++) {
+                    contents +="<tr>";
+            for (var j=1; j<=9; j++) {
+                contents += "<td>" + i + " x " + j + " = " + (i*j) + "</td>";    
+            }
+            contents +="</tr>" ;
+        }
+        contents += "</table>";
+        
+        document.getElementById("right").innerHTML= contents;
+    </script>
+</body>
+</html>
